@@ -1,0 +1,1 @@
+Install-WindowsFeature -Name AD-Domain-Services; Install-ADDSForest -DomainName isc.upa.edu.mx -SafeModeAdministratorPassword (ConvertTo-SecureString -AsPlainText '.R0drig030.' -Force) -Force
